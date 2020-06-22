@@ -25,6 +25,9 @@ endfunction
 nnoremap 0 ^
 nnoremap ^ 0
 
+" Copy to system clipboard with Ctrl-c
+vmap <C-c> "+y
+
 " ,# Surround a word with #{ruby interpolation}
 map ,# ysiw#
 vmap ,# c#{<C-R>"}<ESC>

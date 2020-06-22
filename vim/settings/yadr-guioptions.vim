@@ -4,3 +4,6 @@ set guioptions-=L
 
 " Disable the macvim toolbar
 set guioptions-=T
+
+set mouse=a
+set ttymouse=sgr
